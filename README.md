@@ -6,11 +6,15 @@ git clone  https://github.com/rushi-jagdale/twitter_instagram_api.git
 cd social_media_bot
 2. Create a Virtual Environment (Optional but Recommended)
 python -m venv venv
+
 source venv/bin/activate  # For Linux/Mac
+
 venv\Scripts\activate     # For Windows
-3. Install Dependencies
+
+4. Install Dependencies
 pip install -r requirements.txt
-4. Add API Keys to .env
+
+6. Add API Keys to .env
 Create a .env file in the project root and add your API credentials:
 
 # Twitter API Credentials
@@ -36,15 +40,6 @@ The insta.py script can like a specific Instagram post. Replace your_media_id in
 
 python instagram_bot.py
 
-Project Structure
-
-twitter_instagram_api/
-│
-├── .env                    # Environment variables (API keys and secrets)
-├── requirements.txt        # List of Python dependencies
-├── README.md               # Project documentation
-├── twitter.py          # Twitter-related functionality
-├── insta.py        # Instagram-related functionality
 
 # API Notes
 Twitter
