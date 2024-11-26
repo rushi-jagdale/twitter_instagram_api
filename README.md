@@ -2,7 +2,7 @@
 
 Installation
 1. Clone the Repository
-git clone https://github.com/your-username/social_media_bot.git
+git clone  https://github.com/rushi-jagdale/twitter_instagram_api.git
 cd social_media_bot
 2. Create a Virtual Environment (Optional but Recommended)
 python -m venv venv
