@@ -35,7 +35,9 @@ The insta.py script can like a specific Instagram post. Replace your_media_id in
 ## Run the script:
 
 python instagram_bot.py
+
 Project Structure
+
 twitter_instagram_api/
 │
 ├── .env                    # Environment variables (API keys and secrets)
